@@ -16,7 +16,7 @@ if (guestName) {
         setTimeout(() => { nameElement.style.transform = "scale(1)"; }, 500);
     }
     
-    document.title = "Undangan untuk " + decodedName + " | Amuy & Intan";
+    document.title = "Undangan untuk " + decodedName + " | Arman & Sari";
 }
 
 // --- 3. LOGIC OPENING COVER & INIT MAP ---
@@ -306,7 +306,7 @@ function submitForm(event) {
     console.log('📤 Mengirim RSVP:', data);
     
     // GANTI URL INI DENGAN URL EMAIL KLIEN ANDA (BACA CATATAN DI BAWAH)
-    const EMAIL_URL = "https://formsubmit.co/ajax/teubaleg01@gmail.com"; 
+    const EMAIL_URL = "https://formsubmit.co/ajax/hsarihesti@gmail.com"; 
     
     fetch(EMAIL_URL, {
         method: "POST",
